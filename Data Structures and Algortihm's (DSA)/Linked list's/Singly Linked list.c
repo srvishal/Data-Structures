@@ -109,7 +109,7 @@ void deleteAtPosition(int pos) {
     free(del);
 }
 
-// Search
+// Search the position
 void search(int key) {
     struct Node* temp = head;
     int pos = 1;
